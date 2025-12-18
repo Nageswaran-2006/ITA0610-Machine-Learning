@@ -1,0 +1,30 @@
+.slider {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.pic {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#img1:checked ~ .slider .p1 {
+    opacity: 1;
+}
+
+#img2:checked ~ .slider .p2 {
+    opacity: 1;
+}
+
+#img3:checked ~ .slider .p3 {
+    opacity: 1;
+}
+
+.buttons label {
+    margin-right: 10px;
+    cursor: pointer;
+}
